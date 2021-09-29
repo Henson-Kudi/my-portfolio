@@ -1,0 +1,75 @@
+.HireMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+}
+.formHeaderText {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.HireMe .formContainer {
+  position: relative;
+  width: max-content;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.HireMe .formContainer .formControl {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.HireMe .formContainer .formControl label,
+.HireMe .formContainer .formControl input,
+.HireMe .formContainer .formControl textarea {
+  margin: 0.5rem;
+}
+
+.HireMe .formContainer .formControl input.inputElement,
+.HireMe .formContainer .formControl textarea {
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  font: 1.5rem "Roboto Mono", monospace;
+}
+
+.btnSubmitContainer {
+  text-align: right;
+  margin: 0.5rem;
+}
+
+.btnSubmitContainer .btnSubmit,
+.btnSubmitContainer .btnCancel {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+  font: 1.5rem "Roboto Mono", monospace;
+  color: #ffffff;
+  margin: 0.5rem;
+}
+
+.btnSubmitContainer .btnSubmit {
+  background-color: rgba(66, 135, 245, 0.9);
+  border: 1px solid rgba(66, 135, 245, 0.8);
+}
+
+.btnSubmitContainer .btnCancel {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}

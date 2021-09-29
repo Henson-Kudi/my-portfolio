@@ -1,38 +1,97 @@
 .App {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.one {
+  width: 4%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.one .mainContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+}
+
+.one .mainContainer .topSection .link,
+.one .mainContainer .bottomSection .link {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-search,
+.fa-copy,
+.fa-github {
+  color: gray;
+}
+
+.fa-search {
+  transform: rotate(90deg);
+}
+
+.two {
+  width: 15%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.findProject {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.findProject .searchProject {
+  padding: 0.1rem;
+  background-color: transparent;
+  border: 0.1rem solid gray;
+  width: 100%;
+  color: gray;
+}
+
+.matchedProjects .matchedProject {
+  padding: 0.1rem;
+  cursor: pointer;
+  text-align: left;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.findProject .searchProject::placeholder {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.three {
+  width: 81%;
+  height: 100%;
+  text-align: center;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 767px) {
+  .one {
+    width: 7%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .two {
+    position: absolute;
+    left: 7%;
+    width: 20%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 1);
+    /* display: none; */
   }
-  to {
-    transform: rotate(360deg);
+
+  .three {
+    width: 93%;
   }
 }

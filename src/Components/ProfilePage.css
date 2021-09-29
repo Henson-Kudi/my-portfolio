@@ -1,0 +1,323 @@
+.ProfilePage {
+  width: 100%;
+  height: 100%;
+}
+
+.mainSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: stretch;
+  align-items: stretch;
+  color: #ffffff;
+  height: 65%;
+  overflow-y: auto;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.91);
+}
+
+.titleText {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.titleText .verb {
+  font-size: 4rem;
+}
+
+.titleText .name {
+  font-size: 5rem;
+  font-weight: 550;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.profilePicContainer {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: playPicture 8s 0s alternate;
+}
+
+.btnContainer {
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  background: rgba(66, 135, 245, 0.8);
+  padding: 1rem;
+  border: unset;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 1rem;
+  cursor: pointer;
+  transition: opacity 2s linear 8s;
+}
+
+.consoleSection {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.91);
+}
+
+.consoleResizer {
+  width: 100%;
+  height: 3px;
+}
+
+.consoleResizer:hover {
+  width: 100%;
+  height: 4px;
+  background-color: rgba(66, 135, 245, 1);
+  border: 1px solid rgba(56, 107, 189, 1);
+  cursor: n-resize;
+}
+
+.skillsHeading {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 98%;
+}
+
+.skillGridItem {
+  border-right: 1px solid gray;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.skillsList {
+  height: 80%;
+  overflow-y: auto;
+  text-align: left;
+  margin-left: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.skillsList .fa-chevron-right {
+  margin: 0.3rem;
+}
+
+.skillItem:hover {
+  text-decoration: underline;
+}
+
+.skills {
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  padding: 0.1rem;
+  background-color: gray;
+  cursor: default;
+}
+
+.libraries {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.3rem;
+}
+
+.frameworkImageContainer {
+  width: 70px;
+  height: 70px;
+  margin: 0.5rem;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mainSection .descriptionText {
+  padding: "0.1rem";
+}
+
+.descriptionText .titleText {
+  font-size: 3rem;
+}
+
+.descriptionText .descriptionParagraph {
+  text-align: justify;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.libraries {
+  padding: 1rem;
+  position: relative;
+}
+
+.librariesContainer {
+  height: 100%;
+  overflow: auto;
+}
+
+.librariesListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.2rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+}
+
+.librariesListContainer .listItem {
+  font-weight: 300;
+}
+
+.libraries .btnContainer {
+  position: absolute;
+  bottom: 2rem;
+}
+p.descriptionParagraph {
+  padding: 1rem;
+}
+
+@keyframes playPicture {
+  0% {
+    left: 20%;
+    top: -5rem;
+  }
+  20% {
+    left: 30%;
+    top: 20%;
+  }
+  40% {
+    left: 20%;
+    top: 30%;
+  }
+  60% {
+    left: -5rem;
+    top: 20%;
+  }
+  80% {
+    left: 20%;
+    top: -5rem;
+  }
+  100% {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .titleText {
+    font-size: 5rem;
+  }
+
+  .titleText .verb {
+    font-size: 2.5rem;
+  }
+
+  .titleText .name {
+    font-size: 3rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+  .profilePicContainer {
+    width: 22.5rem;
+    height: 22.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titleText {
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .titleText .verb {
+    font-size: 2.3rem;
+  }
+
+  .titleText .name {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: unset;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  .profilePicContainer {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .mainSection {
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+    height: 75%;
+  }
+
+  .titleText {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .titleText .verb {
+    font-size: 2rem;
+  }
+
+  .titleText .name {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: unset;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .profilePicContainer {
+    animation: unset;
+    width: 22.5rem;
+    height: 22.5rem;
+  }
+
+  .consoleSection {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.91);
+  }
+
+  .skills {
+    color: #fff;
+    font-weight: 300;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .libraries {
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    gap: 0.3rem;
+  }
+}

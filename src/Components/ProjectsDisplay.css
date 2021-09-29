@@ -1,0 +1,46 @@
+.openProjects {
+  border: 0.1px solid gray;
+  padding: 0.1rem;
+}
+
+.openProjects .projects {
+  text-align: center;
+  overflow: hidden;
+}
+
+.projects .project {
+  position: relative;
+}
+
+.projects .project .fa-times {
+  margin: 0 0.5rem;
+  position: absolute;
+  left: 0;
+}
+
+.projects .project:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.projectsFolder {
+  cursor: default;
+}
+
+.allProjects {
+  border-top: 0.1px solid gray;
+  overflow: hidden;
+  cursor: default;
+  padding: 0.5rem;
+}
+
+.projectsList {
+  text-align: center;
+  font-weight: 200;
+}
+
+.frontendProjects,
+.backendProjects,
+.fullStackProjects {
+  overflow: hidden;
+}
