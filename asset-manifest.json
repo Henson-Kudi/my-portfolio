@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ce800c77.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.48c4373f.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.48c4373f.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.578fd735.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.1c69b037.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.1c69b037.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.9bc2dc3f.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.9bc2dc3f.js.map",
-    "static/css/2.881d3c7f.chunk.css": "/my-portfolio/static/css/2.881d3c7f.chunk.css",
-    "static/js/2.bbe5616d.chunk.js": "/my-portfolio/static/js/2.bbe5616d.chunk.js",
-    "static/js/2.bbe5616d.chunk.js.map": "/my-portfolio/static/js/2.bbe5616d.chunk.js.map",
+    "static/css/2.ce3fba67.chunk.css": "/my-portfolio/static/css/2.ce3fba67.chunk.css",
+    "static/js/2.8b118e83.chunk.js": "/my-portfolio/static/js/2.8b118e83.chunk.js",
+    "static/js/2.8b118e83.chunk.js.map": "/my-portfolio/static/js/2.8b118e83.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/2.881d3c7f.chunk.css.map": "/my-portfolio/static/css/2.881d3c7f.chunk.css.map",
-    "static/css/main.ce800c77.chunk.css.map": "/my-portfolio/static/css/main.ce800c77.chunk.css.map",
-    "static/js/2.bbe5616d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.bbe5616d.chunk.js.LICENSE.txt",
+    "static/css/2.ce3fba67.chunk.css.map": "/my-portfolio/static/css/2.ce3fba67.chunk.css.map",
+    "static/css/main.578fd735.chunk.css.map": "/my-portfolio/static/css/main.578fd735.chunk.css.map",
+    "static/js/2.8b118e83.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.8b118e83.chunk.js.LICENSE.txt",
     "static/media/bootstrap.997c463d.svg": "/my-portfolio/static/media/bootstrap.997c463d.svg",
     "static/media/html5.91c24f93.png": "/my-portfolio/static/media/html5.91c24f93.png",
     "static/media/jquery.2e11c875.png": "/my-portfolio/static/media/jquery.2e11c875.png",
@@ -21,9 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9bc2dc3f.js",
-    "static/css/2.881d3c7f.chunk.css",
-    "static/js/2.bbe5616d.chunk.js",
-    "static/css/main.ce800c77.chunk.css",
-    "static/js/main.48c4373f.chunk.js"
+    "static/css/2.ce3fba67.chunk.css",
+    "static/js/2.8b118e83.chunk.js",
+    "static/css/main.578fd735.chunk.css",
+    "static/js/main.1c69b037.chunk.js"
   ]
 }
