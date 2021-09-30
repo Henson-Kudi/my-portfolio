@@ -44,7 +44,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: playPicture 8s 0s alternate;
+  animation: playPicture 7s 0s alternate;
 }
 
 .btnContainer {
@@ -62,7 +62,7 @@
   color: #fff;
   margin: 1rem;
   cursor: pointer;
-  transition: opacity 2s linear 8s;
+  transition: opacity 0.5s linear 5.7s;
 }
 
 .consoleSection {

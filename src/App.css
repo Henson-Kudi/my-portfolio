@@ -79,19 +79,18 @@
 
 @media screen and (max-width: 767px) {
   .one {
-    width: 7%;
+    width: 5rem;
   }
 
   .two {
     position: absolute;
-    left: 7%;
-    width: 20%;
+    left: 5rem;
+    width: 20rem;
     z-index: 3;
     background-color: rgba(0, 0, 0, 1);
-    /* display: none; */
   }
 
   .three {
-    width: 93%;
+    width: 94%;
   }
 }

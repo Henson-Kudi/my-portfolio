@@ -20,7 +20,7 @@ function ProfilePage({projects, visibleProject, showHireMe}) {
     })
 
     const styles = {
-        transition : 'opacity 2s linear',
+        transition : 'opacity 0.5s linear',
         opacity : styler.opacity,
         backgroundImage: `url(${profilePic})`
     }
@@ -42,15 +42,15 @@ function ProfilePage({projects, visibleProject, showHireMe}) {
                 <div className="mainSection">
                     <div className="descriptionText">
                         <h1 className='titleText'>
-                            <span style={{transition: 'opacity 1s linear', opacity: styler.opacity}}>H</span>
-                            <span style={{transition: 'opacity 2s linear 0.5s', opacity: styler.opacity}}>I, </span>
+                            <span style={{transition: 'opacity 0.5s linear', opacity: styler.opacity}}>H</span>
+                            <span style={{transition: 'opacity 0.3s linear 0.5s', opacity: styler.opacity}}>I, </span>
                             <span className='verb' style={{
                                 opacity: styler.opacity,
-                                transition: 'opacity 2s linear 1s'
+                                transition: 'opacity 0.5s linear 0.6s'
                             }}>I </span>
                             <span className='verb' style={{
                                 opacity: styler.opacity,
-                                transition: 'opacity 2s linear 1.5s'
+                                transition: 'opacity 0.5s linear 0.9s'
                             }}>am:</span>
                         </h1>
 
@@ -58,70 +58,70 @@ function ProfilePage({projects, visibleProject, showHireMe}) {
                             <h2 className='titleText'>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 2s'
+                                    transition: 'opacity 0.5s linear 1.2s'
                                 }}>H</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 2.5s'
+                                    transition: 'opacity 0.5s linear 1.5s'
                                 }}>E</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 3s'
+                                    transition: 'opacity 0.5s linear 1.8s'
                                 }}>N</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 3.5s'
+                                    transition: 'opacity 0.5s linear 2.1s'
                                 }}>S</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 4s'
+                                    transition: 'opacity 0.5s linear 2.4s'
                                 }}>O</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 4.5s'
+                                    transition: 'opacity 0.5s linear 2.7s'
                                 }}>N </span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 5s'
+                                    transition: 'opacity 0.5s linear 3s'
                                 }}>K</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 5.5s'
+                                    transition: 'opacity 0.5s linear 3.3s'
                                 }}>U</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 6s'
+                                    transition: 'opacity 0.5s linear 3.6s'
                                 }}>D</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 6.5s'
+                                    transition: 'opacity 0.5s linear 3.9s'
                                 }}>I </span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 7s'
+                                    transition: 'opacity 0.5s linear 4.2s'
                                 }}>A</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 7.5s'
+                                    transition: 'opacity 0.5s linear 4.5s'
                                 }}>M</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 8s'
+                                    transition: 'opacity 0.5s linear 4.8s'
                                 }}>A</span>
                                 <span className='name' style={{
                                     opacity: styler.opacity,
-                                    transition: 'opacity 2s linear 8.5s'
+                                    transition: 'opacity 0.9s linear 5.1s'
                                 }}>H</span>
                             </h2>
                             <h3 className='title' style={{
                                 opacity: styler.opacity,
-                                transition: 'opacity 2s linear 8s'
+                                transition: 'opacity 0.5s linear 5.4s'
                             }}>
                             FullStack Javascript Web Developer (MERN stack)
                             </h3>
                             <h3 className='title' style={{
                                 opacity: styler.opacity,
-                                transition: 'opacity 2s linear 9s'
+                                transition: 'opacity 0.5s linear 5.7s'
                             }}>
                                 Currently taking Python and SQL courses for Web Development & Data Science
                             </h3>
