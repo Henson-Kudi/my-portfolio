@@ -126,7 +126,7 @@ function ProfilePage({projects, visibleProject, showHireMe}) {
                                 Currently taking Python and SQL courses for Web Development & Data Science
                             </h3>
                             <div className='btnContainer'>
-                                <button className='btn' style={{opacity: styler.opacity}}>More About Me</button>
+                                <button className='btn' style={{opacity: styler.opacity}}> <a href='https://henson-kudi.github.io/portfolio/'>More About Me</a> </button>
                             </div>
                         </div>
                     </div>
